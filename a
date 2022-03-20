@@ -559,14 +559,14 @@ SilentAim.MouseButton1Down:connect(function()
 		Enabled = true,
 
 		ShowFOV = true,
-		FOV = 55,
-		FOVSides = 35,
+		FOV = 35,
+		FOVSides = 25,
 		FOVColour = Color3fromRGB(0, 0, 0),
 
 		VisibleCheck = false,
 		ShowCredits = true,
 
-		HitChance = 85,
+		HitChance = 100,
 
 		Selected = nil,
 		SelectedPart = nil,
