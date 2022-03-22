@@ -270,15 +270,15 @@ SilentSelect.MouseButton1Down:connect(function()
 			split = string.split(pingvalue,'(')
 			ping = tonumber(split[1])
 			if ping < 220 then
-				PredictionValue = 0.250
+				PredictionValue = 0.260
 			elseif ping < 200 then
-				PredictionValue = 0.235
+				PredictionValue = 0.240
 			elseif ping < 190 then
-				PredictionValue = 0.227
+				PredictionValue = 0.230
 			elseif ping < 180 then
-				PredictionValue = 0.214
+				PredictionValue = 0.220
 			elseif ping < 160 then
-				PredictionValue = 0.205
+				PredictionValue = 0.210
 			elseif ping < 150 then
 				PredictionValue = 0.190
 			elseif ping < 140 then
@@ -573,7 +573,7 @@ SilentAim.MouseButton1Down:connect(function()
 		SelectedPosition = nil,
 		SelectedPositionOnScreen = nil,
 
-		TargetPart = {"Head", "UpperTorso"},
+		TargetPart = {"HumanoidRootPart", "UpperTorso"},
 
 		Ignored = {
 			Teams = {
